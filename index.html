@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <header>CSS Information</header>
+        <ul class="navlist" id="navlist">
+            <li>
+                <a class="nav-link" href="#introduction">Introduction</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#css_syntax"> CSS Syntax</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#css_selectors">CSS Selectors</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#how_to_add_css">How To Add CSS</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#css_comments">CSS Comments</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <p class="first">What is CSS?</p>
+            <p>
+                <ul class="list">
+                    <li>CSS stands for Cascading Style Sheets</li>
+                    <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                    <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                    <li>External stylesheets are stored in CSS files</li>
+                </ul>
+            </p>
+            
+        </section>
+        <section class="main-section" id="css_syntax">
+            <header>CSS Syntax</header>
+            <p class="first">How does a CSS syntax work?</p>
+            <p>The selector points to the HTML element you want to style.</p>
+            <p>The declaration <code>font</code>block contains one or more declarations separated by semicolons.</p>
+            <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+            <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+        </section>
+        <section class="main-section" id="css_selectors">
+            <header>CSS Selectors</header>
+            <p class="first">What are CSS selectors used for?</p>
+            <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+            <p>We can <code>font</code>divide CSS selectors into five categories:</p>
+            <p>
+                <ul class="list">
+                    <li>Simple selectors (select elements based on name, id, class)</li>
+                    <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+                    <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                    <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                    <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+                </ul>
+            </p>
+        </section>
+        <section class="main-section" id="how_to_add_css">
+            <header>How To Add CSS</header>
+            <p class="first">Three Ways to Insert CSS</p>
+            <p>When a browser reads a style sheet, it <code>font</code> will format the HTML document according to the information in the style sheet.</p>
+            <p>There are three ways of inserting a style sheet:</p>
+            <p>
+                <ul class="list">
+                    <li>External CSS</li>
+                    <li>Internal CSS</li>
+                    <li>Inline CSS</li>
+                </ul>
+            </p>
+            <p>External CSS: With an external style sheet, you can change the look of an entire website by changing just one file!</p>
+        <p>Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.</p>
+        <br>
+        <p>Internal CSS: An internal style sheet may be used if one single HTML page has a unique style.</p>
+        <p>The internal style is defined inside the style element, inside the head section.</p>
+        <br>
+        <p>Inline CSS: An inline style <code>font</code> may be used to apply a unique style for a single element.</p>
+        <p>To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</p>
+        </section>
+        <section class="main-section" id="css_comments">
+            <header>CSS Comments</header>
+            <p class="first">What are CSS comments used for?</p>
+            <p>Comments are used to explain the code, and may help when you edit the source code at a later date.</p>
+            <p>Comments are ignored by browsers.</p>
+            <p>A CSS comment is placed <code>font</code> inside the style element, and starts with /* and ends with */</p>
+            
+        </section>
+        
+
+    </main>
+    
+</body>
+</html>
